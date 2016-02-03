@@ -1,153 +1,165 @@
 <!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="utf-8">
-    <title>JSDoc: Home</title>
+<html lang="en-us">
+  <head>
+    <meta charset="UTF-8">
+    <title>Javascript-algorithms by mgechev</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" href="stylesheets/normalize.css" media="screen">
+    <link href='https://fonts.googleapis.com/css?family=Open+Sans:400,700' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" type="text/css" href="stylesheets/stylesheet.css" media="screen">
+    <link rel="stylesheet" type="text/css" href="stylesheets/github-light.css" media="screen">
+  </head>
+  <body>
+    <section class="page-header">
+      <h1 class="project-name">Javascript-algorithms</h1>
+      <h2 class="project-tagline">JavaScript implementation of different computer science algorithms.</h2>
+      <a href="https://github.com/mgechev/javascript-algorithms" class="btn">View on GitHub</a>
+      <a href="https://github.com/mgechev/javascript-algorithms/zipball/master" class="btn">Download .zip</a>
+      <a href="https://github.com/mgechev/javascript-algorithms/tarball/master" class="btn">Download .tar.gz</a>
+    </section>
 
-    <script src="scripts/prettify/prettify.js"> </script>
-    <script src="scripts/prettify/lang-css.js"> </script>
-    <!--[if lt IE 9]>
-      <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
-    <![endif]-->
-    <link type="text/css" rel="stylesheet" href="styles/prettify-tomorrow.css">
-    <link type="text/css" rel="stylesheet" href="styles/jsdoc-default.css">
-</head>
+    <section class="main-content">
+      <h2>
+<a id="about" class="anchor" href="#about" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>About</h2>
 
-<body>
+<p><img src="https://travis-ci.org/mgechev/javascript-algorithms.svg?branch=master" alt=""></p>
 
-<div id="main">
-
-    <h1 class="page-title">Home</h1>
-
-    
-
-
-
-    
-
-
-    <h3> </h3>
-
-
-
-
-
-
-
-
-
-
-    
-
-
-
-
-    <section>
-        <article><h2>About</h2><p><img src="https://travis-ci.org/mgechev/javascript-algorithms.svg?branch=master" alt=""></p>
 <p>This repository contains JavaScript implementations of different famous Computer Science algorithms.</p>
+
 <p>API reference with usage examples available <a href="https://mgechev.github.io/javascript-algorithms/" target="_blank">here</a>.</p>
+
 <p><em>Note: not all algorithms are well tested so bugs are quite possible.</em></p>
-<h2>Development</h2><p><strong>To install all dev dependencies</strong></p>
+
+<h2>
+<a id="development" class="anchor" href="#development" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Development</h2>
+
+<p><strong>To install all dev dependencies</strong></p>
+
 <p>Call:</p>
-<pre class="prettyprint source lang-bash"><code>npm install</code></pre><p><strong>To setup repository with documentation</strong></p>
+
+<div class="highlight highlight-source-shell"><pre>npm install</pre></div>
+
+<p><strong>To setup repository with documentation</strong></p>
+
 <ul>
 <li>Go to the parent directory of the <code>javascript-algorithms</code> folder and call:</li>
 </ul>
-<pre class="prettyprint source lang-bash"><code>git clone https://github.com/mgechev/javascript-algorithms.git javascript-algorithms-docs</code></pre><ul>
+
+<div class="highlight highlight-source-shell"><pre>git clone https://github.com/mgechev/javascript-algorithms.git javascript-algorithms-docs</pre></div>
+
+<ul>
 <li>Go to the <code>javascript-algorithms-docs</code> folder and change current branch to <code>gh-pages</code>:</li>
 </ul>
-<pre class="prettyprint source lang-bash"><code>git checkout gh-pages</code></pre><p>Now you can see <code>index.html</code> file in this folder and open it in your browser.</p>
+
+<div class="highlight highlight-source-shell"><pre>git checkout gh-pages</pre></div>
+
+<p>Now you can see <code>index.html</code> file in this folder and open it in your browser.</p>
+
 <p><strong>To update .html files with documentation</strong></p>
+
 <p>Go to the <code>javascript-algorithms</code> folder and call:</p>
-<pre class="prettyprint source lang-bash"><code>gulp jsdoc</code></pre><p>and all files in <code>javascript-algorithms-docs</code> folder will be updated.</p>
+
+<div class="highlight highlight-source-shell"><pre>gulp jsdoc</pre></div>
+
+<p>and all files in <code>javascript-algorithms-docs</code> folder will be updated.</p>
+
 <p><strong>To run tests</strong></p>
+
 <p>Call:</p>
-<pre class="prettyprint source lang-bash"><code>gulp test</code></pre><p>and all <code>*.spec.js</code> files will be executed.</p>
-<h2>Contributions</h2><p>Fork the repo and make requred changes. After that push your changes in branch, which is named according to the changes you did.
+
+<div class="highlight highlight-source-shell"><pre>gulp <span class="pl-c1">test</span></pre></div>
+
+<p>and all <code>*.spec.js</code> files will be executed.</p>
+
+<h2>
+<a id="contributions" class="anchor" href="#contributions" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Contributions</h2>
+
+<p>Fork the repo and make requred changes. After that push your changes in branch, which is named according to the changes you did.
 Initiate the PR.</p>
+
 <p>Make sure you're editor makes validations according to the <code>.jshintrc</code> in the root directory of the repository.</p>
+
 <p>Before pushing to the repository run:</p>
-<pre class="prettyprint source lang-bash"><code>gulp build</code></pre><p>If the build is not successful fix your code in order the tests and jshint validation to run successfully and after that create a pull request.</p>
-<h2>Contributors</h2><table>
-<thead>
-<tr>
-<th style="text-align:center"><a href="https://github.com/mgechev"><img alt="mgechev" src="https://avatars.githubusercontent.com/u/455023?v=3&s=117" width="117"></a></th>
-<th style="text-align:center"><a href="https://github.com/AndriiHeonia"><img alt="AndriiHeonia" src="https://avatars.githubusercontent.com/u/773648?v=3&s=117" width="117"></a></th>
-<th style="text-align:center"><a href="https://github.com/Jakehp"><img alt="Jakehp" src="https://avatars.githubusercontent.com/u/1854569?v=3&s=117" width="117"></a></th>
-<th style="text-align:center"><a href="https://github.com/pvoznenko"><img alt="pvoznenko" src="https://avatars.githubusercontent.com/u/1098414?v=3&s=117" width="117"></a></th>
-<th style="text-align:center"><a href="https://github.com/FilipeFalcaoBatista"><img alt="FilipeFalcaoBatista" src="https://avatars.githubusercontent.com/u/9125631?v=3&s=117" width="117"></a></th>
-<th style="text-align:center"><a href="https://github.com/lekkas"><img alt="lekkas" src="https://avatars.githubusercontent.com/u/5211478?v=3&s=117" width="117"></a></th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td style="text-align:center"><a href="https://github.com/mgechev">mgechev</a></td>
-<td style="text-align:center"><a href="https://github.com/AndriiHeonia">AndriiHeonia</a></td>
-<td style="text-align:center"><a href="https://github.com/Jakehp">Jakehp</a></td>
-<td style="text-align:center"><a href="https://github.com/pvoznenko">pvoznenko</a></td>
-<td style="text-align:center"><a href="https://github.com/FilipeFalcaoBatista">FilipeFalcaoBatista</a></td>
-<td style="text-align:center"><a href="https://github.com/lekkas">lekkas</a></td>
-<td></td>
-</tr>
-</tbody>
-</table>
+
+<div class="highlight highlight-source-shell"><pre>gulp build</pre></div>
+
+<p>If the build is not successful fix your code in order the tests and jshint validation to run successfully and after that create a pull request.</p>
+
+<h2>
+<a id="contributors" class="anchor" href="#contributors" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Contributors</h2>
+
 <table>
 <thead>
 <tr>
-<th style="text-align:center"><a href="https://github.com/deniskyashif"><img alt="deniskyashif" src="https://avatars.githubusercontent.com/u/5999271?v=3&s=117" width="117"></a></th>
-<th style="text-align:center"><a href="https://github.com/infusion"><img alt="infusion" src="https://avatars.githubusercontent.com/u/197742?v=3&s=117" width="117"></a></th>
-<th style="text-align:center"><a href="https://github.com/designeng"><img alt="designeng" src="https://avatars.githubusercontent.com/u/2807469?v=3&s=117" width="117"></a></th>
-<th style="text-align:center"><a href="https://github.com/Microfed"><img alt="Microfed" src="https://avatars.githubusercontent.com/u/613179?v=3&s=117" width="117"></a></th>
-<th style="text-align:center"><a href="https://github.com/ysharplanguage"><img alt="ysharplanguage" src="https://avatars.githubusercontent.com/u/1055314?v=3&s=117" width="117"></a></th>
-<th style="text-align:center"><a href="https://github.com/contra"><img alt="contra" src="https://avatars.githubusercontent.com/u/425716?v=3&s=117" width="117"></a></th>
+<th align="center"><a href="https://github.com/mgechev"><img alt="mgechev" src="https://avatars.githubusercontent.com/u/455023?v=3&amp;s=117" width="117"></a></th>
+<th align="center"><a href="https://github.com/AndriiHeonia"><img alt="AndriiHeonia" src="https://avatars.githubusercontent.com/u/773648?v=3&amp;s=117" width="117"></a></th>
+<th align="center"><a href="https://github.com/Jakehp"><img alt="Jakehp" src="https://avatars.githubusercontent.com/u/1854569?v=3&amp;s=117" width="117"></a></th>
+<th align="center"><a href="https://github.com/pvoznenko"><img alt="pvoznenko" src="https://avatars.githubusercontent.com/u/1098414?v=3&amp;s=117" width="117"></a></th>
+<th align="center"><a href="https://github.com/FilipeFalcaoBatista"><img alt="FilipeFalcaoBatista" src="https://avatars.githubusercontent.com/u/9125631?v=3&amp;s=117" width="117"></a></th>
+<th align="center"><a href="https://github.com/lekkas"><img alt="lekkas" src="https://avatars.githubusercontent.com/u/5211478?v=3&amp;s=117" width="117"></a></th>
 </tr>
 </thead>
 <tbody>
 <tr>
-<td style="text-align:center"><a href="https://github.com/deniskyashif">deniskyashif</a></td>
-<td style="text-align:center"><a href="https://github.com/infusion">infusion</a></td>
-<td style="text-align:center"><a href="https://github.com/designeng">designeng</a></td>
-<td style="text-align:center"><a href="https://github.com/Microfed">Microfed</a></td>
-<td style="text-align:center"><a href="https://github.com/ysharplanguage">ysharplanguage</a></td>
-<td style="text-align:center"><a href="https://github.com/contra">contra</a></td>
-<td></td>
+<td align="center"><a href="https://github.com/mgechev">mgechev</a></td>
+<td align="center"><a href="https://github.com/AndriiHeonia">AndriiHeonia</a></td>
+<td align="center"><a href="https://github.com/Jakehp">Jakehp</a></td>
+<td align="center"><a href="https://github.com/pvoznenko">pvoznenko</a></td>
+<td align="center"><a href="https://github.com/FilipeFalcaoBatista">FilipeFalcaoBatista</a></td>
+<td align="center"><a href="https://github.com/lekkas">lekkas</a></td>
 </tr>
 </tbody>
 </table>
+
 <table>
 <thead>
 <tr>
-<th style="text-align:center"><a href="https://github.com/fanixk"><img alt="fanixk" src="https://avatars.githubusercontent.com/u/921156?v=3&s=117" width="117"></a></th>
+<th align="center"><a href="https://github.com/deniskyashif"><img alt="deniskyashif" src="https://avatars.githubusercontent.com/u/5999271?v=3&amp;s=117" width="117"></a></th>
+<th align="center"><a href="https://github.com/infusion"><img alt="infusion" src="https://avatars.githubusercontent.com/u/197742?v=3&amp;s=117" width="117"></a></th>
+<th align="center"><a href="https://github.com/designeng"><img alt="designeng" src="https://avatars.githubusercontent.com/u/2807469?v=3&amp;s=117" width="117"></a></th>
+<th align="center"><a href="https://github.com/Microfed"><img alt="Microfed" src="https://avatars.githubusercontent.com/u/613179?v=3&amp;s=117" width="117"></a></th>
+<th align="center"><a href="https://github.com/ysharplanguage"><img alt="ysharplanguage" src="https://avatars.githubusercontent.com/u/1055314?v=3&amp;s=117" width="117"></a></th>
+<th align="center"><a href="https://github.com/contra"><img alt="contra" src="https://avatars.githubusercontent.com/u/425716?v=3&amp;s=117" width="117"></a></th>
 </tr>
 </thead>
 <tbody>
 <tr>
-<td style="text-align:center"><a href="https://github.com/fanixk">fanixk</a></td>
-<td></td>
+<td align="center"><a href="https://github.com/deniskyashif">deniskyashif</a></td>
+<td align="center"><a href="https://github.com/infusion">infusion</a></td>
+<td align="center"><a href="https://github.com/designeng">designeng</a></td>
+<td align="center"><a href="https://github.com/Microfed">Microfed</a></td>
+<td align="center"><a href="https://github.com/ysharplanguage">ysharplanguage</a></td>
+<td align="center"><a href="https://github.com/contra">contra</a></td>
 </tr>
 </tbody>
 </table>
-<h2>License</h2><p>The code in this repository is distributed under the terms of the MIT license.</p></article>
+
+<table>
+<thead>
+<tr>
+<th align="center"><a href="https://github.com/fanixk"><img alt="fanixk" src="https://avatars.githubusercontent.com/u/921156?v=3&amp;s=117" width="117"></a></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="center"><a href="https://github.com/fanixk">fanixk</a></td>
+</tr>
+</tbody>
+</table>
+
+<h2>
+<a id="license" class="anchor" href="#license" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>License</h2>
+
+<p>The code in this repository is distributed under the terms of the MIT license.</p>
+
+      <footer class="site-footer">
+        <span class="site-footer-owner"><a href="https://github.com/mgechev/javascript-algorithms">Javascript-algorithms</a> is maintained by <a href="https://github.com/mgechev">mgechev</a>.</span>
+
+        <span class="site-footer-credits">This page was generated by <a href="https://pages.github.com">GitHub Pages</a> using the <a href="https://github.com/jasonlong/cayman-theme">Cayman theme</a> by <a href="https://twitter.com/jasonlong">Jason Long</a>.</span>
+      </footer>
+
     </section>
 
-
-
-
-
-
-</div>
-
-<nav>
-    <h2><a href="index.html">Home</a></h2><h3>Modules</h3><ul><li><a href="module-combinatorics_cartesianproduct.html">combinatorics/cartesianproduct</a></li><li><a href="module-combinatorics_combinations.html">combinatorics/combinations</a></li><li><a href="module-combinatorics_permutations.html">combinatorics/permutations</a></li><li><a href="module-combinatorics_variations-repetition.html">combinatorics/variations-repetition</a></li><li><a href="module-data-structures_avl-tree.html">data-structures/avl-tree</a></li><li><a href="module-data-structures_binary-search-tree.html">data-structures/binary-search-tree</a></li><li><a href="module-data-structures_edge.html">data-structures/edge</a></li><li><a href="module-data-structures_hash-table.html">data-structures/hash-table</a></li><li><a href="module-data-structures_heap.html">data-structures/heap</a></li><li><a href="module-data-structures_interval-tree.html">data-structures/interval-tree</a></li><li><a href="module-data-structures_linked-list.html">data-structures/linked-list</a></li><li><a href="module-data-structures_red-black-tree.html">data-structures/red-black-tree</a></li><li><a href="module-data-structures_splay-tree.html">data-structures/splay-tree</a></li><li><a href="module-data-structures_vertex.html">data-structures/vertex</a></li><li><a href="module-graphs_others_topological-sort.html">graphs/others/topological-sort</a></li><li><a href="module-graphs_searching_bfs.html">graphs/searching/bfs</a></li><li><a href="module-graphs_searching_dfs.html">graphs/searching/dfs</a></li><li><a href="module-graphs_shortest-path_bellman-ford.html">graphs/shortest-path/bellman-ford</a></li><li><a href="module-graphs_shortest-path_dijkstra.html">graphs/shortest-path/dijkstra</a></li><li><a href="module-graphs_shortest-path_floyd-warshall.html">graphs/shortest-path/floyd-warshall</a></li><li><a href="module-graphs_spanning-trees_prim.html">graphs/spanning-trees/prim</a></li><li><a href="module-others_fibonacci.html">others/fibonacci</a></li><li><a href="module-others_hanoi.html">others/hanoi</a></li><li><a href="module-others_levenshtein-distance.html">others/levenshtein-distance</a></li><li><a href="module-others_minCoinsChange.html">others/minCoinsChange</a></li><li><a href="module-primes_is-prime.html">primes/is-prime</a></li><li><a href="module-primes_prime-factor-tree.html">primes/prime-factor-tree</a></li><li><a href="module-primes_sieve-of-eratosthenes.html">primes/sieve-of-eratosthenes</a></li><li><a href="module-searching_binarysearch.html">searching/binarysearch</a></li><li><a href="module-searching_knuth-morris-pratt.html">searching/knuth-morris-pratt</a></li><li><a href="module-searching_longest-increasing-subsequence.html">searching/longest-increasing-subsequence</a></li><li><a href="module-searching_maximum-subarray.html">searching/maximum-subarray</a></li><li><a href="module-searching_maximum-subarray-divide-and-conquer.html">searching/maximum-subarray-divide-and-conquer</a></li><li><a href="module-searching_quickselect.html">searching/quickselect</a></li><li><a href="module-searching_recursive-binarysearch.html">searching/recursive-binarysearch</a></li><li><a href="module-sets_quickfind.html">sets/quickfind</a></li><li><a href="module-sets_quickunion.html">sets/quickunion</a></li><li><a href="module-sets_weightquickunion.html">sets/weightquickunion</a></li><li><a href="module-shuffle_fisheryates.html">shuffle/fisheryates</a></li><li><a href="module-shuffle_richarddurstenfeld.html">shuffle/richarddurstenfeld</a></li><li><a href="module-sorting_3-way-string-quicksort.html">sorting/3-way-string-quicksort</a></li><li><a href="module-sorting_bubblesort.html">sorting/bubblesort</a></li><li><a href="module-sorting_bucketsort.html">sorting/bucketsort</a></li><li><a href="module-sorting_countingsort.html">sorting/countingsort</a></li><li><a href="module-sorting_heapsort.html">sorting/heapsort</a></li><li><a href="module-sorting_insertion-binary-sort.html">sorting/insertion-binary-sort</a></li><li><a href="module-sorting_insertionsort.html">sorting/insertionsort</a></li><li><a href="module-sorting_lsd.html">sorting/lsd</a></li><li><a href="module-sorting_mergesort.html">sorting/mergesort</a></li><li><a href="module-sorting_mergesort_merge.html">sorting/mergesort/merge</a></li><li><a href="module-sorting_msd.html">sorting/msd</a></li><li><a href="module-sorting_oddeven-sort.html">sorting/oddeven-sort</a></li><li><a href="module-sorting_quicksort-middle.html">sorting/quicksort-middle</a></li><li><a href="module-sorting_radixsort.html">sorting/radixsort</a></li><li><a href="module-sorting_recursive-insertionsort.html">sorting/recursive-insertionsort</a></li><li><a href="module-sorting_selectionsort.html">sorting/selectionsort</a></li><li><a href="module-sorting_shellsort.html">sorting/shellsort</a></li></ul><h3>Classes</h3><ul><li><a href="module-data-structures_avl-tree.AVLTree.html">AVLTree</a></li><li><a href="module-data-structures_avl-tree.Node.html">Node</a></li><li><a href="module-data-structures_binary-search-tree.BinaryTree.html">BinaryTree</a></li><li><a href="module-data-structures_binary-search-tree.Node.html">Node</a></li><li><a href="module-data-structures_hash-table.Hashtable.html">Hashtable</a></li><li><a href="module-data-structures_hash-table.Node.html">Node</a></li><li><a href="module-data-structures_heap.Heap.html">Heap</a></li><li><a href="module-data-structures_interval-tree.IntervalTree.html">IntervalTree</a></li><li><a href="module-data-structures_interval-tree.Node.html">Node</a></li><li><a href="module-data-structures_linked-list.LinkedList.html">LinkedList</a></li><li><a href="module-data-structures_linked-list.Node.html">Node</a></li><li><a href="module-data-structures_red-black-tree.RBTree.html">RBTree</a></li><li><a href="module-data-structures_splay-tree.Node.html">Node</a></li><li><a href="module-data-structures_splay-tree.SplayTree.html">SplayTree</a></li><li><a href="module-graphs_spanning-trees_prim.Graph.html">Graph</a></li><li><a href="module-sets_quickfind.QuickFind.html">QuickFind</a></li><li><a href="module-sets_quickunion.QuickUnion.html">QuickUnion</a></li><li><a href="module-sets_weightquickunion.QuickUnion.html">QuickUnion</a></li></ul>
-</nav>
-
-<br class="clear">
-
-<footer>
-    Documentation generated by <a href="https://github.com/jsdoc3/jsdoc">JSDoc 3.3.0-alpha13</a> on Thu Oct 22 2015 16:54:35 GMT+0300 (EEST)
-</footer>
-
-<script> prettyPrint(); </script>
-<script src="scripts/linenumber.js"> </script>
-</body>
+  
+  </body>
 </html>
