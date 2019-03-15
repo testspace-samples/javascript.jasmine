@@ -13,8 +13,5 @@ build:
   - gulp build
 
 # refer to ".testspace.txt" for list of content
- on_success:
-   - testspace @.testspace.txt 
-
- on_failure:
-   - testspace @.testspace.txt 
+ always:
+  - testspace @.testspace.txt 
