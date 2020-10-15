@@ -8,18 +8,18 @@ Sample demonstrates techniques for using Testspace with Javascript code and the 
 
   * Using a Testspace Project that is `connected` with this GitHub Repo
   * Using 3 Online CI services for demonstration purposes only
-  * Can review the Results at [testspace-samples:javascript.jasmine](https://samples.testspace.com/projects/testspace-samples:javascript.jasmine)  
-  * Refer to our [Getting Started](https://help.testspace.com/getting-started) help articles for more information
+  * Can review the Results at [testspace-samples:javascript.jasmine](https://samples.testspace.com/projects/testspace-samples:javascript.jasmine)
+  * Refer to our [Help](https://help.testspace.com/) for more information
 
-*** 
+***
 
 Using Multiple Online CI Services:
 
+![Build](https://github.com/testspace-samples/javascript.jasmine/workflows/Build/badge.svg)
 [![Build Status](https://travis-ci.org/testspace-samples/javascript.jasmine.svg?branch=master)](https://travis-ci.org/testspace-samples/javascript.jasmine)
 [![CircleCI](https://circleci.com/gh/testspace-samples/javascript.jasmine.svg?style=svg)](https://circleci.com/gh/testspace-samples/javascript.jasmine)
-[![Run Status](https://api.shippable.com/projects/5707eeda2a8192902e1bd7b4/badge?branch=master)](https://app.shippable.com/github/testspace-samples/javascript.jasmine)
 
-*** 
+***
 Publishing **Test Content** using www.testspace.com.
 
 [![Space Health](https://samples.testspace.com/spaces/804/badge?token=92bafa7b581dddbf949ba27529b021e97c8c202e)](https://samples.testspace.com/spaces/804 "Test Cases")
@@ -29,7 +29,7 @@ Publishing **Test Content** using www.testspace.com.
 
 ***
 
-Download and configure the Testspace client 
+Download and configure the Testspace client
 
 <pre>
 mkdir -p $HOME/bin
@@ -45,9 +45,9 @@ npm install
 gulp build
 </pre>
 
-Push Content using Testspace client 
+Push Content using Testspace client
 
 <pre>
-testspace @.testspace.txt 
-</pre> 
+testspace @.testspace.txt
+</pre>
 
